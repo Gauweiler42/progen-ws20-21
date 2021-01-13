@@ -1,0 +1,10 @@
+1) i = 10, weil j=i++ setzt für j den Wert 10 und c = --j setzt für c=9 und i = ++c setzt i=10
+2) Ich würde einen Integer Wert verwenden. So kann man die Jahreszeiten Frühling, Sommer und Herbst über < und > erfragen, man spart so also jedes Mal eine Fallunterscheidungs Bedinung, ausßer bei der Jahreszeit Winter, da es hier einen Jahreswechsel gibt.
+3) (q || w) ist immer wahr, da q wahr ist. Das ! sorgt dafür, dass dieses Statement falsch ist. t || !w ^ !q ist auch wahr, da t wahr ist. Also ergibt der Term !(q || w) && t || !w ^ !q wahr.
+4) Der Ausddruck 2 ^ 5 liefert 7.
+5) 
+	a) 9.999999999985448
+	b) 9.9921875
+	c) 120080,01 - 120070,01 = 10
+
+Der Unterschied der 3 Ergebnisse liegt an der Speichermethode der verschiedenen Datentypen. Diese Fehler entstehen, weil die Datentypen der Gleitkommazahlen die Werte nicht gleichmäßig darstellen. Je kleiner der Geltungsbereich, desto genauer ist die Darstellung. Da wir Menschen keinen Geltungsbereich haben, ist es für uns einfach jede Zahl korrekt darzustellen.
